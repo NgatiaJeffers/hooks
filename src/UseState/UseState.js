@@ -15,13 +15,14 @@ const UseState = () => {
 
     return (
         <div>
-            {counter} <button onClick={increment}>Increment</button>
-
+            
+            <h1>{counter}</h1>
+            <button onClick={increment}>Increment</button>
             <br />
             <input placeholder="enter something..." onChange={onChange}/>
-
-            {inputValue}
-
+            <br />
+            <h2>{inputValue}</h2>
+            
         </div>
     )
 }
